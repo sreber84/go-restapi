@@ -1,6 +1,6 @@
 FROM registry.fedoraproject.org/fedora:latest
 
-RUN dnf --setopt=install_weak_deps=False install -y golang-bin
+RUN dnf --setopt=install_weak_deps=False install -y golang-bin git
 
 WORKDIR /app
 COPY go.mod go.sum ./
