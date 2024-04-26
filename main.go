@@ -21,7 +21,7 @@ func main() {
 
 	// Start the HTTP server
 	port := 8080
-	fmt.Printf("Server is running on it simply won't break ... %d...\n", port)
+	fmt.Printf("Server is running on fun goes on ... %d...\n", port)
 	http.ListenAndServe(fmt.Sprintf(":%d", port), router)
 }
 
