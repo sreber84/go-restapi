@@ -12,7 +12,7 @@ RUN go build -o /main
 
 # Deploy Stage
 
-FROM registry.fedoraproject.org/fedora:38
+FROM registry.fedoraproject.org/fedora:latest
 
 WORKDIR /
 
