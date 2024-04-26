@@ -21,7 +21,7 @@ func main() {
 
 	// Start the HTTP server
 	port := 8080
-	fmt.Printf("Server is running on running version - trying to break 3.4 ... %d...\n", port)
+	fmt.Printf("Server is running on it's still not failing - but why ... %d...\n", port)
 	http.ListenAndServe(fmt.Sprintf(":%d", port), router)
 }
 
